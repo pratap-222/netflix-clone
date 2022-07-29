@@ -1,14 +1,19 @@
-import firebase from "firebase";
+// import firebase from "firebase";
+
+import firebase from 'firebase/app'
+import "firebase/storage"
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBLblkrYckIGyQZmTO5cpM9rw-f1WiIrHY",
-  authDomain: "netflix-89274.firebaseapp.com",
-  projectId: "netflix-89274",
-  storageBucket: "netflix-89274.appspot.com",
-  messagingSenderId: "124881387391",
-  appId: "1:124881387391:web:389fe0cd350e70947d644a",
-  measurementId: "G-5H7WLY0MVK"
+    apiKey: "AIzaSyCTkDNK6tEVMO9TBYKPOTTOrOQSNd4e4Kw",
+    authDomain: "netflix-f72bf.firebaseapp.com",
+    projectId: "netflix-f72bf",
+    storageBucket: "netflix-f72bf.appspot.com",
+    messagingSenderId: "735848809520",
+    appId: "1:735848809520:web:d867ccff93d03fb80e59f5",
+    measurementId: "G-JM91F80ZSJ"
 };
+
 firebase.initializeApp(firebaseConfig);
 const storage = firebase.storage();
 export default storage;
